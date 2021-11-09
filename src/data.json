@@ -1,0 +1,98 @@
+[
+  {
+    "NGOName": "Robinhood army",
+    "reviews": 4.2,
+    "totalCampaigns": 8350,
+    "totalFeeds": 850,
+    "needFood": true,
+    "time": "8pm - 10pm",
+    "mealsRequired": 5,
+    "about": "From a child labourer to a masterful puppeteer, Shamim has come a long way. Some years ago, the young runaway at the Salaam Baalak Trust met KS Radhakrishnan, the famous sculptor",
+    "image": "https://th.bing.com/th/id/Aq7mMwAp1GMNYyA480x360?&rs=1&pid=ImgDet",
+    "totalVolunteers": 100
+  },
+  {
+    "NGOName": "Youth Reach NGO",
+    "reviews": 5,
+    "totalFeeds": 850,
+    "totalCampaigns": 45,
+    "totalVolunteers": 100,
+    "needFood": true,
+    "time": "8pm - 10pm",
+    "mealsRequired": 5,
+    "about": "From a child labourer to a masterful puppeteer, Shamim has come a long way. Some years ago, the young runaway at the Salaam Baalak Trust met KS Radhakrishnan, the famous sculptor, under the Art Apprenticeship Programme of Youthreach. Later, he would train with renowned puppeteer Dadi Pudumjee and, in the process, learn to pull well the strings of his life.",
+    "image": "https://th.bing.com/th/id/OIP.avdaxd1CtbaaYXpvPPyk-gHaE6?pid=ImgDet&rs=1"
+  },
+  {
+    "NGOName": "National NGO",
+    "reviews": 3.9,
+    "totalFeeds": 850,
+    "totalCampaigns": 49,
+    "totalVolunteers": 100,
+    "needFood": false,
+    "time": "8pm - 10pm",
+    "mealsRequired": 5,
+    "about": "People like Dadi Pudumjee and KS Radhakrishnan volunteer under the Youthreach Volunteer Programme which opens to many children like Shamim a whole new world of life skills, arts, crafts, sports and entrepreneurship which is otherwise denied to them.",
+    "image": "https://live.staticflickr.com/7346/10342603566_1bd83626fa.jpg"
+  },
+  {
+    "NGOName": "NGOs India",
+    "reviews": 3.8,
+    "totalCampaigns": 434,
+    "totalVolunteers": 100,
+    "needFood": false,
+    "totalFeeds": 850,
+    "time": "8pm - 10pm",
+    "mealsRequired": 5,
+    "about": "NGOs India - Information portal of Indian NGOs, consisting NGOs and Funding Agencies dadatabase and online resource for NGOs, NPOs, VOs. Information regarding NGO Registration and NGO Consultancy ",
+    "image": "https://th.bing.com/th/id/Aq7mMwAp1GMNYyA480x360?&rs=1&pid=ImgDet"
+  },
+  {
+    "NGOName": "Well Being Foundation",
+    "reviews": 4.5,
+    "totalCampaigns": 44,
+    "totalVolunteers": 100,
+    "needFood": false,
+    "totalFeeds": 850,
+    "time": "8pm - 10pm",
+    "mealsRequired": 5,
+    "about": "Vision of the organization is to build a society based on promoting socio-economic justice social sensitivity and empowerment of deprived groups. To enable them to become self reliance and work collectively ",
+    "image": "https://www.bing.com/th?id=ARE%252fFDK7lg2MdRQ480x360&w=180&h=200&rs=1&qlt=80&cdv=1&dpr=1.25&pid=Local"
+  },
+  {
+    "NGOName": "Goonj",
+    "reviews": 4.9,
+    "totalCampaigns": 455,
+    "needFood": false,
+    "totalVolunteers": 100,
+    "totalFeeds": 850,
+    "time": "8pm - 10pm",
+    "mealsRequired": 5,
+    "about": "Goonj is a Non-Profit Organisation headquartered in Delhi, India which undertakes disaster relief, humanitarian aid and community development in parts of 23 states across India",
+    "image": "https://www.bing.com/th?id=AXwSNK2SrFs6mJQ480x360&w=208&h=183&c=8&rs=1&qlt=90&dpr=1.25&pid=3.1&rm=2"
+  },
+  {
+    "NGOName": "NGO Darpan",
+    "reviews": 4.3,
+    "totalCampaigns": 455,
+    "totalVolunteers": 100,
+    "needFood": true,
+    "totalFeeds": 850,
+    "time": "8pm - 10pm",
+    "mealsRequired": 5,
+    "about": "Children are the future of mankind. It is a fact that children brought up in a healthy and happy environment along with good education, grow up to be better human beings and consequently better citizens, thereby",
+    "image": "https://www.bing.com/th?id=AuBbYwJWbeXyNmw480x360&w=180&h=200&c=7&rs=1&qlt=80&cdv=1&dpr=1.25&pid=Local"
+  },
+  {
+    "NGOName": "Humana",
+    "reviews": 4.6,
+    "totalCampaigns": 45,
+    "totalVolunteers": 100,
+    "needFood": true,
+    "totalFeeds": 850,
+    "time": "8pm - 10pm",
+    "mealsRequired": 5,
+    "about": "Children are the future of mankind. It is a fact that children brought up in a healthy and happy environment along with good education, grow up to be better human beings and consequently better citizens, thereby",
+    "image": "https://www.bing.com/th?id=Ay%252foYOAGcIPqlFg480x360&w=208&h=183&c=8&rs=1&qlt=90&dpr=1.25&pid=3.1&rm=2"
+  }
+]
