@@ -7,8 +7,8 @@ import Container from './pages/Signin'
 function App() {
   return (
     <div className="App">
-      {/* <Signup /> */}
-      <Container />
+      <Signup />
+      {/* <Container /> */}
       {/* <Router>
       <Switch>
 

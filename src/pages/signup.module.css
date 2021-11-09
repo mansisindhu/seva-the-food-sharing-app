@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 .container {
     border: 1px solid black;
     width: 413px;
@@ -23,7 +24,7 @@ text-align: center;
 
 /* BnW/1 */
 
-color: #232628;
+color: black;
 }
 
 .btn{
@@ -45,36 +46,12 @@ margin-top: 60px;
 color: #FFFFFF;
 }
 
-.email{
-    Width:376px;
-Height :54px;
-background-color:  #FB7E00;
-background: #F8F8F8;
-/* Primary/100 */
-border: 1px solid #6E7275;
-box-sizing: border-box;
-border-radius: 8px;
-margin: 20px;
-margin-top: 15%;
-
-}
-
-.email:focus{
-    border: none;
-    box-sizing: border-box;
-    outline: 2px solid #FB7E00;
-}
-
 .pass{
 
     Width:376px;
     Height :54px;
-    
-
-/* BnW/white2 */
 
 background: #F8F8F8;
-/* BnW/2 */
 margin-top: 5%;
 border: 1px solid #6E7275;
 box-sizing: border-box;
@@ -105,7 +82,8 @@ letter-spacing: 0.0125em;
 
 padding-right: 5px;
 
-color: #6E7275;
+/* color: #6E7275; */
+color: black;
 
 }
 
@@ -121,16 +99,9 @@ input::placeholder {
     
     /* BnW/2 */
     
-    color: #6E7275;
+    color: black;
     
 }
-
-
-/* .lineBox{
-    display: flex;
-    margin: 20px;
-} */
-
 .line1{
     width: 140px;
     height: 2px;
@@ -154,7 +125,7 @@ input::placeholder {
 }
 
 .facebook{
-    background: #FFFFFF;
+    /* background: #FFFFFF; */
     display: flex;
    margin-left: 25%;
 box-shadow: 15px 0px 30px rgba(211, 212, 226, 0.25);
@@ -167,14 +138,12 @@ font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 21px;
-/* identical to box height */
-
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.001em;
 
-color: #120D26;
+color: red;
 
 
 }
@@ -197,5 +166,5 @@ line-height: 21px;
 letter-spacing: 0.001em;
 margin-top: 60px;
 
-color: #232628;
+/* color: #120D26; */
 }

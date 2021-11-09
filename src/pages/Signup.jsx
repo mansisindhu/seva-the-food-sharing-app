@@ -38,7 +38,7 @@ function container() {
 
                 <div className={style.facebook}>
                 <img src="https://media6.ppl-media.com/mediafiles/ecomm/misc/1542974745_google-logo.png" />
-             <div id="google">Login with Google</div>
+             <div>Login with Google</div>
             </div>
 
 
