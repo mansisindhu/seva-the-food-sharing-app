@@ -1,0 +1,20 @@
+.search_input {
+  width: 100%;
+  border: 1px solid #9fa1a3;
+  border-radius: 20px;
+  display: flex;
+  gap: 14px;
+  padding: 12px;
+  align-items: center;
+}
+
+.input {
+  border: none;
+  width: 200px;
+  outline: none;
+}
+
+.search_icon {
+    font-size: 18px;
+    fill: #6E7275;
+}
