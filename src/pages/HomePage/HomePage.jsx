@@ -83,6 +83,20 @@ const HomePage = (props) => {
           })}
         </div>
       </div>
+
+      <div className={styles.food_required_section}>
+        <div className={styles.food_required_top}>
+          <h3>Nearby NGO</h3>
+          <div className={styles.see_all}>
+            <p>See all</p>
+            <RiArrowRightSLine className={styles.search_icon} />
+          </div>
+        </div>
+        <div className={styles.nearby_images}>
+          <img className={styles.nearby_image} src={data[0].image} alt="" />
+          <img className={styles.nearby_image} src={data[1].image} alt="" />
+        </div>
+      </div>
     </div>
   );
 };

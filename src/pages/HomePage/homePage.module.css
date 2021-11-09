@@ -98,3 +98,15 @@
   flex-shrink: 0;
   overflow-x: scroll;
 }
+
+.nearby_images {
+  display: flex;
+  gap: 12px;
+}
+
+.nearby_image {
+  width: 93px;
+  height: 84px;
+  border-radius: 5px;
+  object-fit: cover;
+}
