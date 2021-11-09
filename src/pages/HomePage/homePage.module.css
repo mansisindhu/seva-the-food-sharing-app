@@ -9,7 +9,7 @@
 }
 
 .main_top {
-    padding: 36px 22px;
+    padding: 22px;
     background-color: white;
 }
 
@@ -63,4 +63,17 @@
 
 .round_images::-webkit-scrollbar {
     display: none;
+}
+
+.food_required_section {
+    background-color: white;
+    margin-top: 10px;
+    padding: 12px 22px;
+}
+
+.food_required_top {
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
 }
