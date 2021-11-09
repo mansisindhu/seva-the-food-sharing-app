@@ -9,8 +9,8 @@
 }
 
 .main_top {
-    padding: 22px;
-    background-color: white;
+  padding: 22px;
+  background-color: white;
 }
 
 .input {
@@ -42,33 +42,33 @@
 }
 
 .volunteer_images {
-    background-color: white;
-    margin-top: 10px;
-    padding: 12px 0px;
+  background-color: white;
+  margin-top: 10px;
+  padding: 12px 0px;
 }
 
 .round_image {
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-left: 20px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 20px;
 }
 
 .round_images {
-    display: flex;
-    overflow-x: scroll;
-    margin-top: 12px;
+  display: flex;
+  overflow-x: scroll;
+  margin-top: 12px;
 }
 
 .round_images::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .food_required_section {
-    background-color: white;
-    margin-top: 10px;
-    padding: 12px 22px;
+  background-color: white;
+  margin-top: 10px;
+  padding: 12px 22px;
 }
 
 .food_required_top {
@@ -76,4 +76,25 @@
   font-size: 14px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.upcoming_campaigns {
+  background-color: white;
+  margin-top: 10px;
+  padding: 12px 0;
+}
+
+.campaign_image {
+  height: 88px;
+  min-width: 172px;
+  border-radius: 4px;
+  object-fit: cover;
+  margin-left: 12px;
+}
+
+.campaign_images {
+  display: flex;
+  flex-shrink: 0;
+  overflow-x: scroll;
 }
