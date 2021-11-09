@@ -15,11 +15,15 @@ const DonateFoodNavbar = ({ link }) => {
       <style jsx global>
         {`
           .navbar {
+            padding: 22px;
             background-color: white;
             display: flex;
             align-items: center;
             gap: 70px;
             margin-bottom: 41px;
+            position: fixed;
+            top: 0;
+            width: 414px;
           }
 
           .link {
