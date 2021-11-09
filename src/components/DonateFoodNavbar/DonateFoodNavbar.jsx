@@ -24,6 +24,7 @@ const DonateFoodNavbar = ({ link }) => {
             position: fixed;
             top: 0;
             width: 414px;
+            z-index: 1;
           }
 
           .link {
