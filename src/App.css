@@ -3,6 +3,7 @@
   height: 896px;
   margin: auto;
   background-color: white;
+  padding: 22px;
 }
 
 body {
@@ -13,4 +14,5 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
