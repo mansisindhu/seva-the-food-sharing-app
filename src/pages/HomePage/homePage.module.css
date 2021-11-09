@@ -8,6 +8,10 @@
   align-items: center;
 }
 
+.main {
+  margin-bottom: 54px;
+}
+
 .main_top {
   padding: 22px;
   background-color: white;
