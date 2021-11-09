@@ -8,6 +8,11 @@
   align-items: center;
 }
 
+.main_top {
+    padding: 36px 22px;
+    background-color: white;
+}
+
 .input {
   border: none;
   width: 200px;
@@ -15,6 +20,47 @@
 }
 
 .search_icon {
-    font-size: 18px;
-    fill: #6E7275;
+  font-size: 18px;
+  fill: #6e7275;
+}
+
+.see_all {
+  color: #6e7275;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.top {
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 22px;
+}
+
+.volunteer_images {
+    background-color: white;
+    margin-top: 10px;
+    padding: 12px 0px;
+}
+
+.round_image {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+.round_images {
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 12px;
+}
+
+.round_images::-webkit-scrollbar {
+    display: none;
 }
