@@ -10,9 +10,9 @@ function container() {
     return (
         <div className={style.box}>
             <div className={style.container}>
-                <h1>Sign in</h1>
+                <h1 className={style.titl}>Sign in</h1>
                 <div>
-                    <input type="text" placeholder="Enter your email address" className={style.email} />
+                    <input type="text" placeholder="Enter your email address" className={style.pass} />
                 </div>
 
                 <div>
