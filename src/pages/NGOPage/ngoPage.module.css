@@ -1,0 +1,126 @@
+.ngo_details {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 70px;
+  align-items: center;
+  padding: 32px 0;
+}
+
+.image_section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.image_section > img {
+  width: 126px;
+  height: 126px;
+  border-radius: 50%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.title > p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.grid {
+  margin-top: 42px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 48px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  fill: #4cb2fa;
+  font-size: 18px;
+}
+
+.detail {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.button {
+  margin-top: 46px;
+}
+
+.about {
+  background-color: white;
+  margin-top: 10px;
+  padding: 22px;
+  margin-bottom: 54px;
+}
+
+.about_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_top > p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.about_top > p:first-child {
+  color: #fb7e00;
+  border-bottom: 2px solid #fb7e00;
+}
+
+.about_bottom {
+  margin-top: 32px;
+}
+
+.about_bottom > p {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.buttons > button {
+  width: 156px;
+  height: 42px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.buttons > button:last-child {
+  background: rgba(38, 128, 235, 0.8);
+  border: 1px solid rgba(38, 128, 235, 0.8);
+  color: white;
+}
+
+.buttons > button:first-child {
+  background: #ffffff;
+  border: 1px solid rgba(38, 128, 235, 0.8);
+  color: #4cb2fa;
+}
