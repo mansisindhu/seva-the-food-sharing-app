@@ -1,5 +1,4 @@
 import "./App.css";
-import data from "./data.json";
 
 import HomePage from "./pages/HomePage";
 import AllNGOS from "./pages/AllNGOS";
@@ -12,9 +11,22 @@ import DonationSelection from "./pages/DonationSelection"
 
 import { Switch, Route } from 'react-router-dom'
 import ConfirmFoodDetails from "./pages/ConfirmFoodDetails";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
+import axios from "axios";
 
 function App() {
+  const [ngoData, setData] = useState(null);
+
+  const getNgoData = async () => {
+    const { data } = await axios.get("http://localhost:9900/ngos");
+    setData([...data])
+  }
+
+  useEffect(() => {
+    getNgoData()
+  }, [])
+
   const [foodData, setFoodData] = useState({ type: "", meal: "", quantity: 0 });
 
   const handleInput = (e) => {
@@ -27,13 +39,11 @@ function App() {
     })
   }
 
-  console.log(foodData);
-
   return (
     <div className="App">
       <Switch>
         <Route exact path="/">
-          <HomePage data={data} />
+          {ngoData ? <HomePage data={ngoData} /> : null}
         </Route>
 
         <Route path="/category" exact>
@@ -41,11 +51,11 @@ function App() {
         </Route>
 
         <Route path="/all" exact>
-          <AllNGOS data={data} />
+          {ngoData ? <AllNGOS data={ngoData} /> : null}
         </Route>
 
         <Route path="/all/:id" exact>
-          <NGOPage />
+          {ngoData ? <NGOPage data={ngoData} /> : null}
         </Route>
 
         <Route path="/foodDetails" exact>
