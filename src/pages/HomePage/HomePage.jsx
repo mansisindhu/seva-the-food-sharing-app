@@ -5,6 +5,8 @@ import { RiArrowRightSLine } from "react-icons/ri";
 import NGOCard from "../../components/NGOCard";
 import BottomNavbar from "../../components/BottomNavbar";
 
+import { Link } from "react-router-dom";
+
 const campaignImages = [
   "https://thumbs.dreamstime.com/z/meal-food-donation-app-smartphone-volunteering-charity-concept-covid-solidarity-response-181880570.jpg",
   "https://media.istockphoto.com/vectors/food-donation-and-charity-vector-id1224414210?k=20&m=1224414210&s=612x612&w=0&h=FhZYeea62Eh_7OM74djnSdkRBSq0kpeloV3SnyTiSpE=",
@@ -35,20 +37,24 @@ const HomePage = (props) => {
         <div className={styles.volunteer_images}>
           <div className={styles.top}>
             <h3>Volunteer Required</h3>
-            <div className={styles.see_all}>
-              <p>See all</p>
-              <RiArrowRightSLine className={styles.search_icon} />
-            </div>
+            <Link to="/all">
+              <div className={styles.see_all}>
+                <p>See all</p>
+                <RiArrowRightSLine className={styles.search_icon} />
+              </div>
+            </Link>
           </div>
           <div className={styles.round_images}>
             {data.map((el) => {
               return (
-                <img
-                  key={el.reviews}
-                  className={styles.round_image}
-                  src={el.image}
-                  alt=""
-                />
+                <Link to={`/all/${el.id}`}>
+                  <img
+                    key={el.reviews}
+                    className={styles.round_image}
+                    src={el.image}
+                    alt=""
+                  />
+                </Link>
               );
             })}
           </div>
@@ -56,14 +62,22 @@ const HomePage = (props) => {
         <div className={styles.food_required_section}>
           <div className={styles.food_required_top}>
             <h3>Food Required</h3>
-            <div className={styles.see_all}>
-              <p>See all</p>
-              <RiArrowRightSLine className={styles.search_icon} />
-            </div>
+            <Link to="/all">
+              <div className={styles.see_all}>
+                <p>See all</p>
+                <RiArrowRightSLine className={styles.search_icon} />
+              </div>
+            </Link>
           </div>
-          <NGOCard data={data[0]} />
-          <NGOCard data={data[1]} />
-          <NGOCard data={data[4]} />
+          <Link to="all/0">
+            <NGOCard data={data[0]} />
+          </Link>
+          <Link to="all/2">
+            <NGOCard data={data[2]} />
+          </Link>
+          <Link to="all/7">
+            <NGOCard data={data[7]} />
+          </Link>
         </div>
         <div className={styles.upcoming_campaigns}>
           <div className={styles.top}>
@@ -96,8 +110,12 @@ const HomePage = (props) => {
             </div>
           </div>
           <div className={styles.nearby_images}>
-            <img className={styles.nearby_image} src={data[0].image} alt="" />
-            <img className={styles.nearby_image} src={data[1].image} alt="" />
+            <Link to="all/0">
+              <img className={styles.nearby_image} src={data[0].image} alt="" />
+            </Link>
+            <Link to="all/1">
+              <img className={styles.nearby_image} src={data[1].image} alt="" />
+            </Link>
           </div>
         </div>
       </div>

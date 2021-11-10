@@ -9,7 +9,7 @@ const FoodDetails = () => {
   return (
     <>
       <BottomNavbar />
-      <DonateFoodNavbar />
+      <DonateFoodNavbar link="/category"/>
       <div className={styles.main}>
         <p className={styles.heading}>Meal type</p>
         <div className={styles.radios}>

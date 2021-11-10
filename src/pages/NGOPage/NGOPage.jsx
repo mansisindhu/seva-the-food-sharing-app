@@ -1,17 +1,21 @@
 import styles from "./ngoPage.module.css";
 
+import data from "../../data.json";
+
 import { HiBadgeCheck } from "react-icons/hi";
 
 import BottomNavbar from "../../components/BottomNavbar";
 import DonateFoodNavbar from "../../components/DonateFoodNavbar";
 import Button from "../../components/Button";
+import { useParams } from "react-router";
 
-const NGOPage = (props) => {
-  const { ngoData } = props;
+const NGOPage = () => {
+  const { id } = useParams();
+  const ngoData = data[parseInt(id)];
 
   return (
     <>
-      <DonateFoodNavbar />
+      <DonateFoodNavbar link="/all" />
       <BottomNavbar />
       <div className={styles.main}>
         <div className={styles.ngo_details}>
@@ -41,7 +45,7 @@ const NGOPage = (props) => {
             </div>
           </div>
           <div className={styles.button}>
-            <Button text="Donate Now" />
+            <Button text="Donate Now" link="/donationType" />
           </div>
         </div>
 

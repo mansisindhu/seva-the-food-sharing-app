@@ -9,7 +9,7 @@ const AllNGOS = (props) => {
   return (
     <>
       <BottomNavbar />
-      <DonateFoodNavbar link={""} />
+      <DonateFoodNavbar link="/" />
       <div className="main">
         <h2 className="headline">Choose where you want to donate</h2>
         {data.map((el) => {
