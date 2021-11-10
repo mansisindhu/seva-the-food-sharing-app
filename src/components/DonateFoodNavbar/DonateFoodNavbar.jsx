@@ -6,9 +6,9 @@ const DonateFoodNavbar = ({ link }) => {
   return (
     <>
       <div className="navbar">
-        <a className="link" href={link}>
+        <Link className="link" to={link}>
           <RiArrowLeftSLine className="icon" />
-        </a>
+        </Link>
         <p className="heading">Donate Food</p>
       </div>
 

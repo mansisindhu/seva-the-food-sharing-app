@@ -1,9 +1,11 @@
-const Button = ({ text }) => {
+import { Link } from "react-router-dom";
+
+const Button = ({ text, link }) => {
   return (
     <>
-      <a className="button" href="">
+      <Link className="button" to={link}>
         {text}
-      </a>
+      </Link>
 
       <style jsx>
         {`
