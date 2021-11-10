@@ -1,7 +1,5 @@
 import styles from "./ngoPage.module.css";
 
-import data from "../../data.json";
-
 import { HiBadgeCheck } from "react-icons/hi";
 
 import BottomNavbar from "../../components/BottomNavbar";
@@ -9,7 +7,8 @@ import DonateFoodNavbar from "../../components/DonateFoodNavbar";
 import Button from "../../components/Button";
 import { useParams } from "react-router";
 
-const NGOPage = () => {
+const NGOPage = (props) => {
+  const { data } = props;
   const { id } = useParams();
   const ngoData = data[parseInt(id)];
 
