@@ -7,7 +7,9 @@ import FoodDetails from "./pages/FoodDetails";
 import CategorySelection from "./pages/CategorySelection";
 import ChooseRole from "./pages/ChooseYourRole"
 import DeliverSelection from "./pages/DeliverSelection";
-import DonationSelection from "./pages/DonationSelection"
+import DonationSelection from "./pages/DonationSelection";
+import Profile from "./pages/Profile/Profile";
+import Signup from "./pages/Signup";
 
 import { Switch, Route } from 'react-router-dom'
 import ConfirmFoodDetails from "./pages/ConfirmFoodDetails";
@@ -19,12 +21,28 @@ function App() {
   const [ngoData, setData] = useState(null);
 
   const getNgoData = async () => {
-    const { data } = await axios.get("http://localhost:9900/ngos");
-    setData([...data])
+    try {
+      const { data } = await axios.get("http://localhost:9900/ngos");
+      setData([...data])
+    } catch (err) {
+      console.log(err);
+    }
+  }
+
+  const [userData, setUser] = useState({ isFetched: false, user: null });
+
+  const getUser = async () => {
+    try {
+      const { data } = await axios.get("http://localhost:9900/user", { withCredentials: true });
+      setUser({ isFetched: true, user: data.user });
+    } catch (err) {
+      setUser({ isFetched: true, user: null })
+    }
   }
 
   useEffect(() => {
-    getNgoData()
+    getNgoData();
+    getUser();
   }, [])
 
   const [foodData, setFoodData] = useState({ type: "", meal: "", quantity: 0 });
@@ -39,9 +57,29 @@ function App() {
     })
   }
 
+  const logout = async () => {
+    await axios.get("http://localhost:9900/logout", { withCredentials: true });
+    setUser({ user: null, isFetched: true })
+  };
+
+  if (!userData.isFetched) {
+    return <p>Loading...</p>
+  }
+
+  if (userData.isFetched && !userData.user) {
+    return <div className="App">
+      <Signup />
+    </div>
+  }
+
   return (
     <div className="App">
       <Switch>
+
+        <Route exact path="/profile">
+          <Profile user={userData.user} logout={logout} />
+        </Route>
+
         <Route exact path="/">
           {ngoData ? <HomePage data={ngoData} /> : null}
         </Route>
