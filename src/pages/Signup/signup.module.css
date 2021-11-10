@@ -1,0 +1,89 @@
+.signup_btn {
+  height: 48px;
+  width: 368px;
+  border-radius: 10px;
+  padding: 8px 130px;
+  background: #fb7e00;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  text-align: center;
+  letter-spacing: 0.0015em;
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 18px;
+}
+
+.main h1 {
+  text-align: center;
+  font-size: 24px;
+  padding-top: 30px;
+}
+
+.form input {
+  height: 54px;
+  width: 367px;
+  border-radius: 8px;
+  background: #f8f8f8;
+  border: 1px solid #9fa1a3;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.lower {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.signUpWith {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.google {
+  height: 56px;
+  width: 273px;
+  background: #ffffff;
+  box-shadow: 15px 0px 30px rgba(211, 212, 226, 0.25);
+  border-radius: 12px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.iconGoogle {
+  font-size: 32px;
+}
+
+.iconFb {
+  font-size: 30px;
+  color: #1877f2;
+}
+
+.number p {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* .line {
+  height: 40px;
+  width: 1px;
+  background-color: black;
+  margin-top: 10px;
+  margin-bottom: 20px;
+} */
+
+.or {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
