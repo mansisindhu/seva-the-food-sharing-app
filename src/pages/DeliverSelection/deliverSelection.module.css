@@ -1,8 +1,11 @@
 .selfBtn {
   color: #fb7e00;
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .pickupBtn {
+  cursor: pointer;
   background: #fb7e00;
   color: white;
 }
@@ -35,7 +38,6 @@
 }
 
 .button_section > button {
-  cursor: pointer;
   height: 42px;
   width: 156px;
   border-radius: 5px;
