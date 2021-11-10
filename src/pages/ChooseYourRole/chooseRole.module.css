@@ -1,0 +1,40 @@
+.role_section {
+  margin: auto;
+  display: flex;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.06),
+    0px 2.2px 7.2px rgba(0, 0, 0, 0.13);
+  border-radius: 8px;
+  height: 114px;
+  width: 368px;
+  margin-top: 30px;
+  font-size: 12px;
+  padding: 13px;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+.main h2 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 52px;
+  text-align: center;
+  letter-spacing: 0.0015em;
+  margin-top: 78px;
+  padding-top: 50px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.info {
+  width: 400px;
+}
+
+.img {
+  width: 400px;
+}
+
+.img > img {
+  width: 90%;
+}
