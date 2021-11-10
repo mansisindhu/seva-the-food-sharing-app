@@ -27,3 +27,8 @@
   font-size: 12px;
   line-height: 13px;
 }
+
+.disable {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
