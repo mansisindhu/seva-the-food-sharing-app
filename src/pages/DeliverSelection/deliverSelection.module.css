@@ -1,0 +1,44 @@
+.selfBtn {
+  color: #fb7e00;
+}
+
+.pickupBtn {
+  background: #fb7e00;
+  color: white;
+}
+
+.main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  justify-content: center;
+  padding: 44px;
+}
+
+.main p {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.img img {
+  border-radius: 0px;
+  align-items: center;
+  margin-top: 150px;
+  width: 350px;
+}
+
+.button_section {
+  display: flex;
+  gap: 10px;
+}
+
+.button_section > button {
+  cursor: pointer;
+  height: 42px;
+  width: 156px;
+  border-radius: 5px;
+  padding: 0px 32px;
+  border: 1px solid #fb7e00;
+}
