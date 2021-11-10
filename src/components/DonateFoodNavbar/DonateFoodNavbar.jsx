@@ -12,7 +12,7 @@ const DonateFoodNavbar = ({ link }) => {
         <p className="heading">Donate Food</p>
       </div>
 
-      <style jsx global>
+      <style jsx>
         {`
           .navbar {
             padding: 22px;
