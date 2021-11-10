@@ -13,6 +13,7 @@
   justify-content: space-between;
   gap: 20px;
   align-items: center;
+  cursor: pointer;
 }
 
 .main h2 {
@@ -37,4 +38,9 @@
 
 .img > img {
   width: 90%;
+}
+
+.role_section_inactive {
+  opacity: 0.6;
+  cursor: not-allowed;
 }

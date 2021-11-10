@@ -17,7 +17,7 @@ const ChooseRole = () => {
           </div>
         </div>
 
-        <div className={styles.role_section}>
+        <div className={[styles.role_section, styles.role_section_inactive].join(" ")}>
           <div className={styles.info}>
             <h1>Volunteer</h1>
             <p>Fill the gap between Donor and needy.</p>
