@@ -2,6 +2,7 @@
   margin-top: 80px;
   padding: 22px;
   background-color: white;
+  height: 100vh;
 }
 
 .slider {
@@ -41,9 +42,9 @@
   position: relative;
   padding-left: 28px;
   cursor: pointer;
-  line-height: 20px;
   display: inline-block;
-  color: #666;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 [type="radio"]:checked + label:before,
@@ -83,4 +84,71 @@
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
+}
+
+.label {
+  font-size: 14px;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 20px;
+}
+
+.radios {
+  display: flex;
+  gap: 58px;
+}
+
+.checkbox_container {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
+}
+
+.overlay {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.checked_overlay {
+  border-radius: 50%;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.checkbox:checked ~ .checked_overlay {
+  display: unset;
+}
+
+.checkboxes {
+  display: flex;
+  gap: 47px;
+  margin-top: 40px;
+}
+
+.checkbox_container > p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 21px;
+  color: #6e7275;
 }
