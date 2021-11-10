@@ -11,8 +11,24 @@ import DeliverSelection from "./pages/DeliverSelection";
 import DonationSelection from "./pages/DonationSelection"
 
 import { Switch, Route } from 'react-router-dom'
+import ConfirmFoodDetails from "./pages/ConfirmFoodDetails";
+import { useState } from "react";
 
 function App() {
+  const [foodData, setFoodData] = useState({ type: "", meal: "", quantity: 0 });
+
+  const handleInput = (e) => {
+    const { name, value } = e.target;
+    setFoodData(prev => {
+      return {
+        ...prev,
+        [name]: value
+      }
+    })
+  }
+
+  console.log(foodData);
+
   return (
     <div className="App">
       <Switch>
@@ -33,7 +49,7 @@ function App() {
         </Route>
 
         <Route path="/foodDetails" exact>
-          <FoodDetails />
+          <FoodDetails handleInput={handleInput} />
         </Route>
 
         <Route path="/delivery" exact>
@@ -46,6 +62,10 @@ function App() {
 
         <Route path="/donationType" exact>
           <DonationSelection />
+        </Route>
+
+        <Route path="/confirmFoodDetails" exact>
+          <ConfirmFoodDetails foodData={foodData} />
         </Route>
       </Switch>
 
