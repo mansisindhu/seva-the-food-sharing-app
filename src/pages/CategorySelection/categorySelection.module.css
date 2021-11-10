@@ -1,0 +1,23 @@
+.image_section img {
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.image_section {
+  margin: auto;
+}
+
+.main h1 {
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.0015em;
+  margin-top: 48px;
+  padding-top: 50px;
+  margin-bottom: 32px;
+}
+
+.main {
+  padding: 22px;
+}
