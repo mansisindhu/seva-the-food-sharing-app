@@ -152,3 +152,17 @@
   line-height: 21px;
   color: #6e7275;
 }
+
+.range_slider {
+  margin-top: 60px;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  text-align: center;
+  margin-top: 42px;
+}
