@@ -4,26 +4,27 @@ import {Route, Switch } from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
  import Signup from './pages/Signup';
 import Container from './pages/Signin'
+import Role from './pages/Role/Roles';
+import Slider from "./pages/Inroductry/Slider"
 function App() {
   return (
     <div className="App">
-      {/* <Signup /> */}
-      <Container />
-      {/* <Router>
-      <Switch>
+     <Router>
+    <Switch>
 
-        <Route path="/page3">
-      
-        <Container/>
-        </Route>
 
-        <Route path='/'>
-        <Container />
-        </Route>
-     
-      <Login />
+      <Route path='/up'>
+      <Signup/>
+      </Route>
+
+      <Route path="/">
+      <Container/>
+      </Route>
       </Switch>
-      </Router> */}
+      </Router>
+
+
+
     </div>
   );
 }

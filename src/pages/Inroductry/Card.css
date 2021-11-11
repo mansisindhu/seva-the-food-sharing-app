@@ -1,0 +1,42 @@
+.cards{
+    margin: 10px;
+}
+.dateb{
+    margin-left: 30px;
+}
+.card{
+  border: solid #e21515;
+  background-color: #ff9900;
+  height: 400px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.case{
+    height: 50px;
+  width: 150px; 
+  background-color: black;
+  color: white;
+  justify-content: space-around;
+   margin-left: 30px;
+}
+.casel{
+    color: white;
+   margin-left: 20px;
+  margin-top: 8px;
+   font-size: 20px;
+   font-weight: bolder;
+}
+.card__title{
+     margin-left: 40px;
+
+}
+.card__title2{
+     margin-left: 40px;
+
+}
+.datep{
+    font-weight: bolder;
+    font-size: 30px;
+}

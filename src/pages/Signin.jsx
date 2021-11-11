@@ -1,7 +1,7 @@
 import React from 'react';
 // import {Route, Switch } from 'react-router-dom';
 
-
+import {Link, BrowserRouter as Router} from 'react-router-dom'
 
 
 import style from '../components/container.module.css'
@@ -40,7 +40,15 @@ function container() {
              <div id="facebook">Login with Facebook</div>
             </div>
 
-                <div className={style.last}>Don't have an account?Sign up!</div>
+                <div className={style.last}>Don't have an account?
+                <span >
+                    <Router>
+                    <Link to='/up'>
+                Sign up!
+                </ Link>
+                </Router >
+                </span>
+                </div>
 
 
           

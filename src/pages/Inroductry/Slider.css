@@ -1,0 +1,118 @@
+*{
+    box-sizing : border-box;
+    margin: 0;
+}
+.slide-title{
+    margin-left: 100px;
+}
+.active{
+    display: inline-block;
+}
+.inactive {
+    display: none;
+}
+.cont{
+    width: 414px;
+    height: 896px;
+    margin: auto;
+    background-color: white;
+    padding: 22px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.slide-image {
+    margin-top: 8%;
+    position: absolute;
+    object-fit: cover;
+    padding: 5px;
+    margin-left: 6%;
+}
+.slide-last {
+    text-align: center;
+    padding:20px;
+    position: absolute;
+left: 26.88%;
+right: 26.63%;
+top: 73%;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.0025em;
+color: #232628;
+}
+.slide-text {
+    color: rgb(19, 18, 18);
+    text-align: center;
+    margin-left: 30%;
+}
+.slide-title{
+    margin-left: 100px;
+    margin-top: 350px;
+}
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 65%;
+    width: auto;
+    padding: 1rem;
+    margin-top:  1rem;
+    font-weight: bold;
+    margin-left: 39.2%;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 130px;
+font-size: 18px;
+color: #FFFFFF;
+position: absolute;
+left: 5.57%;
+right: 5.33%;
+height: 48px;
+width: 368px;
+left: 23px;
+
+/* border: none; */
+background: #FB7E00;
+border-radius: 110px;
+
+}
+.prev:hover,
+.next:hover {
+    color: white;
+    background-color: rgba(199, 25, 25, 0.6);
+    transition: all 0.5s ease-in;
+}
+.next{
+    right: 0;
+    border-radius: 5px 0px 0px 5px;
+}
+.all-dots{
+    width: 10%;
+    height: 8%;
+    margin-left: 5%;
+    position: absolute;
+    display: flex;
+    top: 60%;
+    justify-content: center;
+}
+.dot{
+    cursor: pointer;
+    height: 0.6rem;
+    width: 0.5rem;
+    margin: 0px 3px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius:  50%;
+    border: solid rgb(13, 184, 41);
+    display: inline-block;  
+}
+.active-dot,
+.dot:hover {
+    background-color: #d3141499;
+}
+
+
