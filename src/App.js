@@ -18,7 +18,7 @@ function App() {
       </Route>
 
       <Route path="/">
-      <Container/>
+      <Slider/>
       </Route>
       </Switch>
       </Router>
