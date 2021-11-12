@@ -17,6 +17,12 @@ import { useState, useEffect } from "react";
 
 import axios from "axios";
 
+import {Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+ import Signup from './pages/Signup';
+import Container from './pages/Signin'
+import Role from './pages/Role/Roles';
+import Slider from "./pages/Inroductry/Slider"
 function App() {
   const [ngoData, setData] = useState(null);
 
