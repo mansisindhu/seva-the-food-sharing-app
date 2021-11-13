@@ -44,18 +44,16 @@ const ConfirmFoodDetails = (props) => {
         <p className={styles.heading}>Contact Information</p>
         <div className={styles.input_box}>
           <BsTelephone />
-          <input type="text" placeholder="9876383735" />
+          <input type="number" placeholder="9876383735" />
         </div>
 
         <p className={styles.heading}>By when you can donate</p>
         <div className={styles.input_box}>
-          <IoCalendarNumberOutline />
-          <input type="text" placeholder="30-Sep-2021" />
+          <input type="date" placeholder="30-Sep-2021" />
         </div>
 
         <div className={[styles.input_box, styles.bottom_input].join(" ")}>
-          <GrAlarm />
-          <input type="text" placeholder="Time" />
+          <input type="time" placeholder="Time" />
         </div>
 
         <div className={styles.guideline}>
