@@ -1,5 +1,5 @@
 
-# Seva Spot Clone
+# Seva  Clone
 
  We have made Hungerspot website as project of our construct week at Masai School.
  We built this website by referring ui/ux desigine and implemented maximum design
