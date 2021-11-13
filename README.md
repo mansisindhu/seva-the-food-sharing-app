@@ -8,7 +8,7 @@
 ## Team Members
 
  - [Mansi Sindhu](https://github.com/mansisindhu)
- - [Rohit ](https://github.com/rht16)
+ - [Rohit Kumar ](https://github.com/rht16)
  - [Shashi Kumar](https://github.com/Shashi-kr-github)
  - [Shantanu Pathak](https://github.com/Wingsrt)
 
