@@ -44,7 +44,7 @@ const NGOPage = (props) => {
             </div>
           </div>
           <div className={styles.button}>
-            <Button text="Donate Now" link="/donationType" />
+            <Button text="Donate Now" link="/category" />
           </div>
         </div>
 

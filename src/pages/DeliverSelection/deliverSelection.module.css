@@ -44,3 +44,37 @@
   padding: 0px 32px;
   border: 1px solid #fb7e00;
 }
+
+.modal_overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(97, 95, 95, 0.9);
+}
+
+.modal_container {
+  padding: 42px;
+  width: 324px;
+  height: 288px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
+  border-radius: 4px;
+  align-items: center;
+}
+
+.icon {
+  font-size: 48px;
+  fill: #FB7E00;
+}
+
+.modal_container > p {
+  margin: 0;
+}

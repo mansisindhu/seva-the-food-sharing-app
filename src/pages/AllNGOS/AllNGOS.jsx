@@ -2,6 +2,7 @@ import DonateFoodNavbar from "../../components/DonateFoodNavbar";
 
 import NGOCard from "../../components/NGOCard";
 import BottomNavbar from "../../components/BottomNavbar";
+import { Link } from "react-router-dom";
 
 const AllNGOS = (props) => {
   const { data } = props;
@@ -13,7 +14,11 @@ const AllNGOS = (props) => {
       <div className="main">
         <h2 className="headline">Choose where you want to donate</h2>
         {data.map((el) => {
-          return <NGOCard data={el} />;
+          return (
+            <Link to={`/all/${el.id}`}>
+              <NGOCard data={el} />
+            </Link>
+          );
         })}
       </div>
 
