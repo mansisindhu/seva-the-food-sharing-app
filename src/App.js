@@ -10,6 +10,7 @@ import DeliverSelection from "./pages/DeliverSelection";
 import DonationSelection from "./pages/DonationSelection";
 import Profile from "./pages/Profile/Profile";
 import Signup from "./pages/Signup";
+import FirstPage from "./pages/FirstPage";
 
 import { Switch, Route } from 'react-router-dom'
 import ConfirmFoodDetails from "./pages/ConfirmFoodDetails";
@@ -45,6 +46,14 @@ function App() {
     getUser();
   }, [])
 
+  const [isLoad, setLoad] = useState(true);
+
+  useEffect(() => {
+    setInterval(() => {
+      setLoad(false);
+    }, 3000)
+  }, [])
+
   const [foodData, setFoodData] = useState({ type: "", meal: "", quantity: 0 });
 
   const handleInput = (e) => {
@@ -62,20 +71,22 @@ function App() {
     setUser({ user: null, isFetched: true })
   };
 
+
+
   if (!userData.isFetched) {
     return <p>Loading...</p>
   }
 
+
   if (userData.isFetched && !userData.user) {
     return <div className="App">
-      <Signup />
+      {isLoad ? <FirstPage /> : <Signup />}
     </div>
   }
 
   return (
     <div className="App">
       <Switch>
-
         <Route exact path="/profile">
           <Profile user={userData.user} logout={logout} />
         </Route>
