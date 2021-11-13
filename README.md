@@ -49,11 +49,11 @@
 
 ![image (6)](https://user-images.githubusercontent.com/86429170/141607065-cf904359-e62f-4c7e-92c2-46bfa0fb338f.png)
 
-6.We can choose how much we have to donate (NO Veg/ Veg).
+6.We can choose how much we have to donate (Non Veg/ Veg).
 
 ![image (9)](https://user-images.githubusercontent.com/86429170/141607115-65bc982c-7b8e-4f89-bc06-eb95194ec19e.png)
 
-7.This page gives choice to donate Coocked food or Raw food.
+7.This page gives choice to donate Cooked food or Raw food.
 
 ![image (8)](https://user-images.githubusercontent.com/86429170/141607184-095b06f4-0b37-4bca-b2d1-654cb3c420df.png)
 
