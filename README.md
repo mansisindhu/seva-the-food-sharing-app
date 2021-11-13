@@ -67,6 +67,25 @@
 
 
 
+## Usage
+
+To run the application locally; clone the repo, install dependencies and run the app.
+
+```
+$ git clone https://github.com/mansisindhu/seva-the-food-sharing-frontend.git
+$ cd seva-food-sharing-frontend
+$ yarn && npm start
+```
+
+The app starts in development mode and opens a browser window on `http://localhost:3000`. The project rebuilds and the browser reloads automatically when source files are changed. Any build or runtime errors are propagated and displayed in the browser.
+
+
+## Backend repo link
+
+- [backend repo link](https://github.com/mansisindhu/seva-the-food-sharing-backend.git)
+
+
+
 
 
 
