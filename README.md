@@ -1,14 +1,12 @@
 
-# Hunger Spot Clone
+# Seva-The Food Donation App
 
- We have made Hungerspot website as project of our construct week at Masai School.
- We built this website by referring ui/ux desigine and implemented maximum design
-
+This app is build for the people who wants to donate the food. Built this website in coordination with UI/UX designer.
 
 ## Team Members
 
  - [Mansi Sindhu](https://github.com/mansisindhu)
- - [Rohit ](https://github.com/rht16)
+ - [Rohit Kumar ](https://github.com/rht16)
  - [Shashi Kumar](https://github.com/Shashi-kr-github)
  - [Shantanu Pathak](https://github.com/Wingsrt)
 
@@ -21,11 +19,14 @@
  - User Authentication.
 
  ## Technology used for Front-End
- - React
- - css
+ - ReactJS
+ - CSS
+ - styled-jsx
 
 
 ## Glimpse of our cloned website
+
+![image](https://user-images.githubusercontent.com/76626095/141648665-be7044d1-4696-44ab-9c40-24bfe527ddde.png)
 
 1. This is the sign up page of our Website.
 
