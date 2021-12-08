@@ -1,7 +1,8 @@
 
 # Seva-The Food Donation App
 
-This app is build for the people who wants to donate the food. Built this website in coordination with UI/UX designer.
+An application to bring together NGOs and volunteers for food donation.
+Collaboratively built with a UI/UX Designer, using ReactJS, Styled-JSX, ExpressJS, and MongoDB.
 
 ## Team Members
 
